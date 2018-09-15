@@ -17,7 +17,11 @@
 	<!-- /entry-header -->
 
 	<!-- entry-content -->
+	<figure>
+        <?php the_post_thumbnail( $size, $attr ); ?>
+	</figure>
 	<div class="entry-content">
+	    投稿コンテンツだよ
 		<?php the_content( "続きを読む" ); ?>
 		<?php wp_link_pages(); ?>
 	</div>

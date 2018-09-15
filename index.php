@@ -3,6 +3,7 @@
 トップページ用テンプレート
 */
 get_header(); ?>
+        もしかして
 
 		<?php if ( have_posts() ) : ?>
 

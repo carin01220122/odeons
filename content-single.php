@@ -15,6 +15,9 @@
 		</p>
 	</header>
 	<!-- /entry-header -->
+	<p>
+	    記事詳細部分
+	</p>
 
 	<!-- entry-content -->
 	<div class="entry-content">

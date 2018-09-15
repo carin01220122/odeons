@@ -44,17 +44,7 @@
 
 	<!-- ページヘッダ -->
 	<header id="site-header">
-		<!-- ロゴ -->
-		<?php if ( is_front_page() && is_home() ) : ?>
-		<h1 id="site-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-		<?php else : ?>
-		<p id="site-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></p>
-		<?php endif; ?>
-		<!-- /ロゴ -->
 
-		<!-- 検索フォーム -->
-		<?php get_search_form(); ?>
-		<!-- /検索フォーム -->
 
 		<!-- グローバルナビ -->
 		<nav>
